@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-angular",
+  "version": "0.0.1",
+  "description": "sails generate angular",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha",
+    "install": "bower install"
+  },
+  "keywords": [
+    "angular",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "alexmarch",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "angular",
+    "behavior": "overrides `sails generate angular`",
+    "sailsVersion": "~0.10.0"
+  }
+}
