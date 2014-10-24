@@ -1,13 +1,4 @@
 /**
- * Module dependencies
- */
-
-var util = require('util');
-var _ = require('lodash');
-_.defaults = require('merge-defaults');
-
-
-/**
  * sails-generate-angular
  *
  * Usage:

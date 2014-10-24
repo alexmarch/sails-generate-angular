@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-angular",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "sails generate angular",
   "main": "Generator.js",
   "scripts": {
