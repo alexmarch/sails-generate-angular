@@ -24,6 +24,7 @@ $ sails generate angular
 ##### On the layout.ejs file
 
 ```ejs
+...
 <head>
 	<% include ng-views/styles.ejs %>
 </head>
