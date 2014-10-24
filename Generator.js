@@ -19,7 +19,7 @@ _.defaults = require('merge-defaults');
 
 module.exports = {
 
-  before: require('./lib/before')
+  before: require('./lib/before'),
 
   targets: {
 
@@ -35,11 +35,11 @@ module.exports = {
     
     // Templates
     './views/angular': { template: 'views/angular/include.ejs' },
-    './assets/app/src': { template: 'app/src/app.js' }
+    './assets/app/src': { template: 'app/src/app.js' },
     // Copy files
     './assets/app/frameworks/angular.min.js': { copy: 'assets/components/angular/angular.min.js' },
     './assets/app/libs/jquery.min.js': { copy: 'assets/components/jquery/dist/jquery.min.js' },
-    './assets/app/libs/bootstrap.min.js': { copy: 'assets/components/bootstrap/dist/js/bootstrap.min.js' },
+    './assets/app/libs/bootstrap.min.js': { copy: 'assets/components/bootstrap/dist/js/bootstrap.min.js' }
   },
 
   templatesDirectory: require('path').resolve(__dirname, './templates')
