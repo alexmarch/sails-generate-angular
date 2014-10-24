@@ -21,6 +21,19 @@ $ npm install sails-generate-angular
 $ sails generate angular 
 ```
 
+##### On the layout.ejs file
+
+```ejs
+...
+<head>
+	<% include ng-views/styles.ejs %>
+</head>
+<body>
+	<% include ng-views/ngapp.ejs %>
+	<% include ng-views/ngrequire.ejs %>
+</body>
+```
+
 
 
 ### Development
